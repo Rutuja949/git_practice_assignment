@@ -1,0 +1,15 @@
+let num=141;
+let temp=num;
+let bag="";
+
+while(temp>0){
+let m=temp%10;
+bag=bag+m;
+temp=Math.floor(temp/10);
+}
+if(bag==ans){
+console.log("it is a pallindrome");
+}
+else{
+console.log("Not a palindrome");
+}
